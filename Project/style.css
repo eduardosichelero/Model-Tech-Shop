@@ -5,6 +5,9 @@ body {
   padding-top: 80px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 .container {
   max-width: 1180px;
   margin: auto;
@@ -43,6 +46,10 @@ header .container {
 header .logo {
   display: inline-block;
   font-size: 27px;
+}
+header .logo a{
+  text-decoration: none;
+  color: #000;
 }
 
 header .logo .blue-dot {
