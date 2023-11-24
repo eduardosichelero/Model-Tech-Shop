@@ -5,7 +5,7 @@ Bem-vindo ao Model-Tech-Shop! Este é um modelo de e-commerce simples feito com 
 
 # Link para a Página
 
-Link: https://eduardosichelero.github.io/Portifolio/
+Link: https://eduardosichelero.github.io/Model-Tech-Shop/
 
 # Screenshot
 Prévia do projeto :
