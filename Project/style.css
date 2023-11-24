@@ -62,6 +62,16 @@ header nav ul li {
   display: inline-block;
 }
 
+header nav ul li.menu-icon {
+  display: none;
+}
+
+header nav ul li.menu-icon img {
+  vertical-align: middle;
+  width: 24px ;
+  height: auto;
+}
+
 header nav ul li a {
   color: #3e3e3e;
   font-size: 15px;
@@ -145,7 +155,7 @@ section.hero {
   border: none;
   cursor: pointer;
 }
-.hero-content button:hover {
+.oo-content button:hover {
   color: #3e50e5;
   background-color: #fff;
   border: 1px solid #3e50e5;

@@ -6,6 +6,7 @@
     <title>Tech Shop</title>
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="midias.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,13 +25,21 @@
                     <li><a href="#">About Us</a></li>
                     <li><a href="#">Promotions</a></li>
                     <li><a href="#">Newsletter</a></li>
+                    <li class="menu-icon"><img src="images/menu_icon.png" alt="icone de menu"></li>
                 </ul>
             </nav>
         </div>
     </header>
     <section class="hero">
+        <picture>
 
-        <img src="./images/Hero_image.jpg" alt="Imagem de um SmartWatch">
+            <source media="(max-width:576px)" srcset="images/Hero_Mobile.jpg">
+            <source media="(max-width:960px)" srcset="images/Hero_Tablet.jpg">
+            <source media="(max-width:1440px)" srcset="images/Hero_Desktop.jpg">
+            
+            <img src="./images/Hero_Large_Desktop.jpg" alt="Imagem de um SmartWatch">
+
+          </picture>
         <div class="hero-content">
             <div class="container">
                 <h1>Explore our new smart watch series</h1>
@@ -156,7 +165,7 @@
 
         <div class="copyright-text">
             2023 &copy; All Rights Reserved
-        
+        </div
    </footer>
 </body>
 </html>
